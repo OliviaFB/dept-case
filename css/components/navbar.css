@@ -1,0 +1,117 @@
+/* Mobile */
+
+@media screen and (max-width: 409px) {
+  .navbar {
+    height: 56px;
+    background-color: white;
+    color: black;
+  }
+
+  .logo-white {
+    display: none;
+  }
+
+  .exit-button {
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+  }
+
+  .desktop-menu-list {
+    display: none;
+  }
+
+  .nav-container {
+    background-color: black;
+    color: white;
+    right: 0;
+    transition: right 0.8s ease;
+    width: 100%;
+    z-index: 100;
+    padding: 80px;
+    height: 100%;
+  }
+
+  .menu-list div {
+    text-align: right;
+    border-bottom: 1px solid white;
+  }
+
+  .nav-animation {
+    position: fixed;
+    right: -100%;
+    transition: right 0.8s ease;
+    z-index: 100;
+  }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 410px) {
+  .navbar {
+    height: 115px;
+    background-color: black;
+    color: white;
+    padding: 50px !important;
+  }
+
+  .logo-black {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .desktop-menu-list {
+    display: flex;
+    gap: 30px;
+  }
+
+  .new-menu-list {
+    font-size: 50px;
+    color: white;
+  }
+
+  .menu-list div {
+    text-align: right;
+    border-bottom: 1px solid white;
+  }
+
+  .nav-container {
+    background-color: black;
+    position: fixed;
+    right: 0;
+    transition: right 0.8s ease;
+    width: 100%;
+    z-index: 100;
+    padding: 80px;
+    height: 100%;
+  }
+
+  .nav-animation {
+    position: fixed;
+    right: -100%;
+    transition: right 0.8s ease;
+  }
+
+  .exit-button {
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+  }
+}

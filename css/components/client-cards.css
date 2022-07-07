@@ -1,0 +1,36 @@
+.clients-title {
+  padding-bottom: 32px;
+}
+
+.clients-paragraph {
+  padding-bottom: 64px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 409px) {
+  .clients-container {
+    background-color: black;
+    padding: 92px 32px 77px 32px;
+  }
+
+  .client-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 83px;
+    justify-items: center;
+  }
+}
+
+@media screen and (min-width: 410px) {
+  .clients-container {
+    background-color: black;
+    padding: 92px 140px 77px 140px;
+  }
+
+  .client-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 83px;
+    justify-items: center;
+  }
+}

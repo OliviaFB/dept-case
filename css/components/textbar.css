@@ -1,0 +1,92 @@
+.divider {
+  height: 1px;
+  background-color: #dddddd;
+  margin-bottom: 20px;
+}
+
+.company-title {
+  padding-bottom: 12px;
+}
+
+.microsoft-paragraph {
+  margin-bottom: 20px;
+}
+
+.oneill-paragraph {
+  margin-bottom: 32px;
+}
+
+.article-description {
+  margin-bottom: 12px;
+}
+
+.quotation {
+  padding-bottom: 32px;
+}
+
+.quotation-name {
+  font-size: 18px;
+}
+.bar {
+  color: white;
+  background-color: black;
+  padding: 24px;
+  text-align: justify;
+  line-height: 16px;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 409px) {
+  .top-bar {
+    height: 78px;
+    background-color: black;
+  }
+
+  .mid-bar {
+    height: 440px;
+  }
+
+  .testimony-bar {
+    padding: 92px 32px 142px 32px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    line-height: 26px;
+    font-size: 26px;
+    height: 416px;
+  }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 410px) {
+  .top-bar {
+    height: 90px;
+    background-color: white;
+    color: black;
+    font-size: 26px;
+  }
+
+  .top-title {
+    font-size: 26px;
+  }
+
+  .underline {
+    text-decoration: underline;
+  }
+
+  .mid-bar {
+    height: 568px;
+  }
+
+  .testimony-bar {
+    padding: 92px 32px 142px 32px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    line-height: 26px;
+    font-size: 26px;
+    height: 282px;
+  }
+}

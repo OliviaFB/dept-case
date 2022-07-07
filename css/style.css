@@ -1,0 +1,30 @@
+@import url(components/header.css);
+@import url(components/navbar.css);
+@import url(components/footer.css);
+@import url(components/textbar.css);
+@import url(components/client-cards.css);
+@import url(components/contact-form.css);
+@import url(components/companies-cards.css);
+
+.main-container {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: white;
+  width: 100%;
+}
+
+.small-font {
+  font-size: 16px;
+}
+
+.medium-font {
+  font-size: 18px;
+}
+
+.big-font {
+  font-size: 34px;
+}
+
+.grey-contrast {
+  color: #a3a3a3;
+}
