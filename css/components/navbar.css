@@ -20,7 +20,7 @@
     align-items: center;
     position: absolute;
     top: 5%;
-    right: 5%;
+    right: 3%;
     font-size: 30px;
   }
 
@@ -35,8 +35,9 @@
     transition: right 0.8s ease;
     width: 100%;
     z-index: 100;
-    padding: 80px;
+    padding: 100px 24px;
     height: 100%;
+    font-size: 34px;
   }
 
   .menu-list div {
