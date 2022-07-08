@@ -40,16 +40,16 @@
     font-size: 34px;
   }
 
-  .menu-list div {
-    text-align: right;
-    border-bottom: 1px solid white;
-  }
-
   .nav-animation {
     position: fixed;
     right: -100%;
     transition: right 0.8s ease;
     z-index: 100;
+  }
+
+  .menu-list div {
+    text-align: right;
+    border-bottom: 1px solid white;
   }
 }
 

@@ -1,2 +1,3 @@
 <!-- Dept case
-Production with Netlify: https://frontend-casestudy.netlify.app/ -->
+Taken to production with Netlify: https://frontend-casestudy.netlify.app/
+-->
